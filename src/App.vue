@@ -4,6 +4,10 @@
       <nav-bar></nav-bar>
     </div>
     
+    <div id="mainImage">
+      <main-image></main-image>
+    </div>
+
     <div id="jumbotron">
       <jumbo-1></jumbo-1>
       <jumbo-2></jumbo-2>
@@ -14,6 +18,7 @@
 
 <script>
 import navbar from './components/navbar.vue'
+import mainImage from './components/mainImage.vue'
 import jumbo1 from './components/jumbo-1.vue'
 import jumbo2 from './components/jumbo-2.vue'
 
@@ -21,6 +26,7 @@ export default {
   name: 'app',
   components: {
     'nav-bar' : navbar,
+    'main-image' : mainImage,
     'jumbo-1' : jumbo1,
     'jumbo-2' : jumbo2
   }
